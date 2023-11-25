@@ -1,8 +1,10 @@
 import React from "react";
 import "./card.css";
 import { useAppStore } from "@/store";
-function Card({ text }) {
-  const { setInputValue, setRow, row, inputValue } = useAppStore();
+function Card({ text , handleDelete}) {
+
+  const {setInputValue , setRow ,row ,inputValue} = useAppStore();
+
   return (
     <div className="card">
       <h3>{text.text}</h3>

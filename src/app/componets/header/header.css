@@ -18,3 +18,7 @@
 .about{
     margin-left: 10px;
 }
+.aboutlink{
+    text-decoration: none;
+    color: black;
+}
